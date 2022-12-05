@@ -85,6 +85,13 @@ void calibrate();
  */
 void moveDist(float dist_cm, bool yAxis);
 
+/**
+ * @brief Moves the gantry to a certain goal point from its
+ *        current point.
+ * 
+ * @param currentPoint 
+ * @param goalPoint 
+ */
 void moveSquare(Point_t *currentPoint, Point_t *goalPoint);
 
 #endif /* GANTRY_MOVEMENT */
